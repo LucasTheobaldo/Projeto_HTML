@@ -1,4 +1,18 @@
 /* Add a black background color to the top navigation */
+.logo{
+  width: 35px;
+  float: right;
+}
+
+.empresa{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .topnav {
     background-color: #282727;
     overflow: hidden;
@@ -8,12 +22,6 @@
     width: 100%;
     text-align: center;
     
-}
-
-.topnav:after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 /* Style the links inside the navigation bar */
