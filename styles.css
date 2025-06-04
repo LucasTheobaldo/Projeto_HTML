@@ -93,6 +93,12 @@ body {
 }
 
 /*Cartão de produtos*/
+
+.card_center{
+  top: 50%;
+  left: 50%;
+}
+
 .prod_card{
   list-style-type: none;
   margin: 0;
