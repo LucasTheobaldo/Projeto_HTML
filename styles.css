@@ -123,7 +123,7 @@ body {
   font-size: 22px;
 }
 
-.card button {
+.card .not-red {
   border: none;
   outline: 0;
   padding: 12px;
@@ -135,11 +135,17 @@ body {
   font-size: 18px;
 }
 
-.card button:not(.not-red) {
+.red{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
   background-color: #af1a1a;
+  text-align: center;
+  font-size: 18px;
 }
 
-.card button:hover {
+.card .not-red:hover{
   opacity: 0.7;
 }
 
@@ -154,19 +160,6 @@ input[type=text], select, textarea {
   margin-top: 6px; 
   margin-bottom: 16px; 
   resize: vertical 
-}
-
-input[type=submit] {
-  background-color: #bebfa3;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #04AA6D;
 }
 
 .container div{
@@ -185,6 +178,8 @@ input[type=submit]:hover {
   text-align: center;
   font-size: x-large;
 }
+
+/*Produto1*/
 
 .main-header {
   text-align: center;
@@ -250,19 +245,5 @@ input[type=submit]:hover {
   font-weight: 300;
   color: #43474D;
   margin-right: 20px;
-}
- 
-.cart-btn {
-  display: inline-block;
-  background-color: #7DC855;
-  border-radius: 6px;
-  font-size: 16px;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 12px 30px;
-  transition: all .5s;
-}
-.cart-btn:hover {
-  background-color: #64af3d;
 }
 
