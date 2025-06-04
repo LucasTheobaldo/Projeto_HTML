@@ -29,7 +29,6 @@ body {
     
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -39,18 +38,15 @@ body {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #bebfa3;
   color: white;
 }
-/*#FEFFD7*/
 
 /*Footer*/
 .footer{
@@ -94,33 +90,31 @@ body {
 
 /*Cartão de produtos*/
 
-.card_center{
-  top: 50%;
-  left: 50%;
+.card_center {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
-.prod_card{
+.prod_card {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-.prod_card li{
-  float: left;
-}
-
-.prod_card li+li{
-  margin-left: 15px;
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 15px; 
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 200px;
-  margin: auto;
   text-align: center;
   font-family: arial;
   background-color: #eaeadd;
+  flex-shrink: 0;
 }
 
 .price {
@@ -143,8 +137,6 @@ body {
 .card button:not(.not-red) {
   background-color: #af1a1a;
 }
-
-
 
 .card button:hover {
   opacity: 0.7;
