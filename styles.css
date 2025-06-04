@@ -88,15 +88,15 @@ body {
     margin-bottom:0;
 }
 
-/*Cartão de produtos*/
-
-.card_center {
+.container_center {
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   margin-top: 20px; 
   margin-bottom: 20px; 
 }
+
+/*Cartão de produtos*/
 
 .prod_card {
   list-style-type: none;
@@ -141,3 +141,142 @@ body {
 .card button:hover {
   opacity: 0.7;
 }
+
+/*Contato*/
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #bebfa3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #04AA6D;
+}
+
+/* Add a background color and some padding around the form */
+.container div{
+  border-radius: 5px;
+  background-color: #65918f;
+  padding: 20px;
+} 
+
+.just {
+  text-align: justify;
+  text-align: center;
+}
+
+.text_ind {
+  text-align: justify;
+  text-align: center;
+  font-size: x-large;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.main-header img{
+  text-align: center;
+  width: 1500px;
+  height: 100%;
+}
+
+/*Produto1*/
+ 
+.container_prod {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+ 
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+/* Left Column */
+.left-column img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product-description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #64af3d;
+}
+
