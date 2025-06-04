@@ -9,6 +9,7 @@ body {
   float: right;
 }
 
+/*Barra de navegação*/
 .empresa{
   float: right;
   color: #f2f2f2;
@@ -142,21 +143,19 @@ body {
   opacity: 0.7;
 }
 
-/*Contato*/
+/*Contato / Trabalhe*/
 
- /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #bebfa3;
   color: white;
@@ -166,12 +165,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #04AA6D;
 }
 
-/* Add a background color and some padding around the form */
 .container div{
   border-radius: 5px;
   background-color: #65918f;
@@ -198,8 +195,6 @@ input[type=submit]:hover {
   width: 1500px;
   height: 100%;
 }
-
-/*Produto1*/
  
 .container_prod {
   max-width: 1200px;
@@ -208,7 +203,6 @@ input[type=submit]:hover {
   display: flex;
 }
 
-/* Columns */
 .left-column {
   width: 65%;
   position: relative;
@@ -219,7 +213,6 @@ input[type=submit]:hover {
   margin-top: 60px;
 }
 
-/* Left Column */
 .left-column img {
   width: 100%;
   position: absolute;
@@ -228,23 +221,17 @@ input[type=submit]:hover {
   transition: all 0.3s ease;
 }
 
-/* Product Description */
 .product-description {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
-.product-description span {
-  font-size: 12px;
-  color: #358ED7;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+
 .product-description h1 {
   font-weight: 300;
   font-size: 52px;
   color: #43484D;
   letter-spacing: -2px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .product-description p {
   font-size: 16px;
@@ -253,7 +240,6 @@ input[type=submit]:hover {
   line-height: 24px;
 }
 
-/* Product Price */
 .product-price {
   display: flex;
   align-items: center;
